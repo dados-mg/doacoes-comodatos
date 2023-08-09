@@ -1,0 +1,557 @@
+{
+  "version": "4.16.6",
+  "time": 0.054,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019",
+        "dialect": {
+          "delimiter": ";",
+          "doubleQuote": true
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "mediatype": "text/csv",
+        "name": "doacoes-comodatos-amigo-estado-mg",
+        "path": "data/doacoes-comodatos-amigo-estado-mg.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "description": "Ano de publicação no Diário Oficial do Estado do ato que autorizou o recebimento de doação ou de bem em comodato",
+              "name": "ANO",
+              "title": "Ano",
+              "type": "year"
+            },
+            {
+              "description": "Código da unidade orçamentária do órgão ou entidade beneficiada",
+              "format": "default",
+              "name": "CODIGO_ORGAO_ENTIDADE",
+              "title": "Código Órgão Entidade",
+              "type": "number"
+            },
+            {
+              "description": "Unidade orçamentária do órgão ou entidade beneficiada",
+              "format": "default",
+              "name": "ORGAO_ENTIDADE",
+              "title": "Órgão Entidade",
+              "type": "string"
+            },
+            {
+              "description": "CNPJ ou CPF do doador ou comodante.",
+              "format": "default",
+              "name": "CNPJ_CPF_DOADOR_COMODANTE",
+              "title": "CNPJ CPF Doador",
+              "type": "string"
+            },
+            {
+              "description": "Nome do doador ou comodante.",
+              "format": "default",
+              "name": "DOADOR_COMODANTE",
+              "title": "Doador Comodante",
+              "type": "string"
+            },
+            {
+              "description": "Objeto da doação ou comodato.",
+              "format": "default",
+              "name": "OBJETO",
+              "title": "Objeto",
+              "type": "string"
+            },
+            {
+              "description": "Quantitativo, quando for o caso, do objeto da doação ou comodato.",
+              "format": "default",
+              "name": "QUANTITATIVO",
+              "title": "Quantitativo",
+              "type": "string"
+            },
+            {
+              "description": "Vigência do Comodato. ",
+              "format": "default",
+              "name": "VIGENCIA",
+              "title": "Vigência",
+              "type": "string"
+            },
+            {
+              "decimalChar": ",",
+              "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato. Pode ser em moeda nacional ou estrangeira.",
+              "format": "default",
+              "groupChar": ".",
+              "missingValues": [
+                "",
+                "-",
+                "Indeterminado"
+              ],
+              "name": "VALOR",
+              "title": "Valor",
+              "type": "number"
+            },
+            {
+              "constraints": {
+                "pattern": "^[A-Z]{3}$"
+              },
+              "description": "Moeda corrente do valor da doação ou comodato. Valores possíveis: BRL (reais) ou EUR (euros).",
+              "format": "default",
+              "name": "MOEDA",
+              "title": "Moeda",
+              "type": "string"
+            },
+            {
+              "description": "Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a avaliação das propostas de doação ou oferta de bens em comodato realizada pela Secretaria de Estado de Planejamento e Gestão (SEPLAG).\n",
+              "format": "default",
+              "name": "PROCESSO_SEI",
+              "title": "Processo SEI",
+              "type": "string"
+            },
+            {
+              "description": "Link para Íntegra do termo de doação ou comodato.",
+              "format": "default",
+              "name": "INTEGRA_TERMO_DOACAO_COMODATO",
+              "title": "Íntegra Termo Doação",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Doações e comodatos recebidos pela Administração - Selo Amigo de Minas Gerais",
+        "stats": {
+          "hash": "08b68d01a593af6c0029605d674704b5",
+          "bytes": 56130,
+          "fields": 12,
+          "rows": 111
+        }
+      },
+      "time": 0.032,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "label": "ano",
+          "fieldName": "ANO",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"ano\" in field ANO at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "codigo_orgao_entidade",
+          "fieldName": "CODIGO_ORGAO_ENTIDADE",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"codigo_orgao_entidade\" in field CODIGO_ORGAO_ENTIDADE at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "orgao_entidade",
+          "fieldName": "ORGAO_ENTIDADE",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"orgao_entidade\" in field ORGAO_ENTIDADE at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "cnpj_cpf_doador_comodante",
+          "fieldName": "CNPJ_CPF_DOADOR_COMODANTE",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"cnpj_cpf_doador_comodante\" in field CNPJ_CPF_DOADOR_COMODANTE at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "doador_comodante",
+          "fieldName": "DOADOR_COMODANTE",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"doador_comodante\" in field DOADOR_COMODANTE at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "objeto",
+          "fieldName": "OBJETO",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"objeto\" in field OBJETO at position \"6\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "quantitativo",
+          "fieldName": "QUANTITATIVO",
+          "fieldNumber": 7,
+          "fieldPosition": 7,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"quantitativo\" in field QUANTITATIVO at position \"7\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "vigencia",
+          "fieldName": "VIGENCIA",
+          "fieldNumber": 8,
+          "fieldPosition": 8,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"vigencia\" in field VIGENCIA at position \"8\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "valor",
+          "fieldName": "VALOR",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"valor\" in field VALOR at position \"9\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "moeda",
+          "fieldName": "MOEDA",
+          "fieldNumber": 10,
+          "fieldPosition": 10,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"moeda\" in field MOEDA at position \"10\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "processo_sei",
+          "fieldName": "PROCESSO_SEI",
+          "fieldNumber": 11,
+          "fieldPosition": 11,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"processo_sei\" in field PROCESSO_SEI at position \"11\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "integra_termo_doacao_comodato",
+          "fieldName": "INTEGRA_TERMO_DOACAO_COMODATO",
+          "fieldNumber": 12,
+          "fieldPosition": 12,
+          "labels": [
+            "ano",
+            "codigo_orgao_entidade",
+            "orgao_entidade",
+            "cnpj_cpf_doador_comodante",
+            "doador_comodante",
+            "objeto",
+            "quantitativo",
+            "vigencia",
+            "valor",
+            "moeda",
+            "processo_sei",
+            "integra_termo_doacao_comodato"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"integra_termo_doacao_comodato\" in field INTEGRA_TERMO_DOACAO_COMODATO at position \"12\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
+      "stats": {
+        "errors": 12
+      },
+      "valid": false
+    }
+  ],
+  "stats": {
+    "errors": 12,
+    "tasks": 1
+  },
+  "valid": false
+}
