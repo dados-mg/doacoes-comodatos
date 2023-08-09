@@ -1,18 +1,18 @@
-description: ContÈm relaÁ„o das doaÁıes e comodatos para o Governo de Minas Gerais,
-  em conson‚ncia com o art. 18, ß ˙nico do Decreto n∫ 47.611/2019. A atualizaÁ„o desta
-  relaÁ„o se dar· por intermÈdio da Diretoria de Compras do Centro de ServiÁos Compartilhados
-  da Secretaria de Estado de Planejamento e Gest„o, apÛs a publicaÁ„o de cada termo.
+description: Cont√©m rela√ß√£o das doa√ß√µes e comodatos para o Governo de Minas Gerais,
+  em conson√¢ncia com o art. 18, ¬ß √∫nico do Decreto n¬∫ 47.611/2019. A atualiza√ß√£o desta
+  rela√ß√£o se dar√° por interm√©dio da Diretoria de Compras do Centro de Servi√ßos Compartilhados
+  da Secretaria de Estado de Planejamento e Gest√£o, ap√≥s a publica√ß√£o de cada termo.
 keywords:
   - governo
-  - doaÁıes
-  - patrimÙnio
+  - doa√ß√µes
+  - patrim√¥nio
 name: doacoes-comodatos-amigo-estado-mg
 owner_org: secretaria-de-estado-de-planejamento-e-gestao-seplag
 private: false
 profile: tabular-data-package
 resources:
-  - description: ContÈm relaÁ„o das doaÁıes e comodatos para o Governo de Minas Gerais,
-      em conson‚ncia com o art. 18, ß ˙nico do Decreto n∫ 47.611/2019
+  - description: Cont√©m rela√ß√£o das doa√ß√µes e comodatos para o Governo de Minas Gerais,
+      em conson√¢ncia com o art. 18, ¬ß √∫nico do Decreto n¬∫ 47.611/2019
     dialect:
       delimiter: ;
       doubleQuote: true
@@ -25,20 +25,20 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - description: Ano de publicaÁ„o no Di·rio Oficial do Estado do ato que autorizou
-            o recebimento de doaÁ„o ou de bem em comodato
+        - description: Ano de publica√ß√£o no Di√°rio Oficial do Estado do ato que autorizou
+            o recebimento de doa√ß√£o ou de bem em comodato
           name: ANO
           title: Ano
           type: year
-        - description: CÛdigo da unidade orÁament·ria do Ûrg„o ou entidade beneficiada
+        - description: C√≥digo da unidade or√ßament√°ria do √≥rg√£o ou entidade beneficiada
           format: default
           name: CODIGO_ORGAO_ENTIDADE
-          title: CÛdigo ”rg„o Entidade
+          title: C√≥digo √ìrg√£o Entidade
           type: number
-        - description: Unidade orÁament·ria do Ûrg„o ou entidade beneficiada
+        - description: Unidade or√ßament√°ria do √≥rg√£o ou entidade beneficiada
           format: default
           name: ORGAO_ENTIDADE
-          title: ”rg„o Entidade
+          title: √ìrg√£o Entidade
           type: string
         - description: CNPJ ou CPF do doador ou comodante.
           format: default
@@ -50,23 +50,23 @@ resources:
           name: DOADOR_COMODANTE
           title: Doador Comodante
           type: string
-        - description: Objeto da doaÁ„o ou comodato.
+        - description: Objeto da doa√ß√£o ou comodato.
           format: default
           name: OBJETO
           title: Objeto
           type: string
-        - description: Quantitativo, quando for o caso, do objeto da doaÁ„o ou comodato.
+        - description: Quantitativo, quando for o caso, do objeto da doa√ß√£o ou comodato.
           format: default
           name: QUANTITATIVO
           title: Quantitativo
           type: string
-        - description: 'VigÍncia do Comodato. '
+        - description: 'Vig√™ncia do Comodato. '
           format: default
           name: VIGENCIA
-          title: VigÍncia
+          title: Vig√™ncia
           type: string
         - decimalChar: ','
-          description: Valor estimado do bem ou serviÁo doado ou oferecido em comodato.
+          description: Valor estimado do bem ou servi√ßo doado ou oferecido em comodato.
             Pode ser em moeda nacional ou estrangeira.
           format: default
           groupChar: .
@@ -79,29 +79,29 @@ resources:
           type: number
         - constraints:
             pattern: ^[A-Z]{3}$
-          description: 'Moeda corrente do valor da doaÁ„o ou comodato. Valores possÌveis:
+          description: 'Moeda corrente do valor da doa√ß√£o ou comodato. Valores poss√≠veis:
             BRL (reais) ou EUR (euros).'
           format: default
           name: MOEDA
           title: Moeda
           type: string
-        - description: 'N˙mero do processo eletrÙnico no Sistema EletrÙnico de InformaÁıes
-            (SEI) que identifica a avaliaÁ„o das propostas de doaÁ„o ou oferta de
+        - description: 'N√∫mero do processo eletr√¥nico no Sistema Eletr√¥nico de Informa√ß√µes
+            (SEI) que identifica a avalia√ß√£o das propostas de doa√ß√£o ou oferta de
             bens em comodato realizada pela Secretaria de Estado de Planejamento e
-            Gest„o (SEPLAG).
+            Gest√£o (SEPLAG).
 
             '
           format: default
           name: PROCESSO_SEI
           title: Processo SEI
           type: string
-        - description: Link para Õntegra do termo de doaÁ„o ou comodato.
+        - description: Link para √çntegra do termo de doa√ß√£o ou comodato.
           format: default
           name: INTEGRA_TERMO_DOACAO_COMODATO
-          title: Õntegra Termo DoaÁ„o
+          title: √çntegra Termo Doa√ß√£o
           type: string
     scheme: file
-    title: DoaÁıes e comodatos recebidos pela AdministraÁ„o - Selo Amigo de Minas
+    title: Doa√ß√µes e comodatos recebidos pela Administra√ß√£o - Selo Amigo de Minas
       Gerais
 state: active
-title: DoaÁıes e comodatos recebidos pela AdministraÁ„o - Selo Amigo de Minas Gerais
+title: Doa√ß√µes e comodatos recebidos pela Administra√ß√£o - Selo Amigo de Minas Gerais
