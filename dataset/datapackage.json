@@ -27,8 +27,8 @@
         "fields": [
           {
             "description": "Ano de publicação no Diário Oficial do Estado do ato que autorizou o recebimento de doação ou de bem em comodato",
-            "name": "ANO",
-            "title": "Ano",
+            "name": "ANO_DOACAO",
+            "title": "Ano da Doação",
             "type": "year"
           },
           {
