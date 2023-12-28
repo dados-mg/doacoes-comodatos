@@ -4,7 +4,7 @@
 
 Documentação das principais alterações sofridas por este repositório. Baseado na filosofia [Mantenha um Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
-### [0.0.2] - 2021-02-16
+### [0.0.2] - 2021-02-17
 
 - Adiciona coluna 'MOEDA' após a coluna 'VALOR', seguindo a [ISO 4217](https://datahub.io/core/currency-codes), em função da publicação de uma doação realizada em moeda estrangeira (euro);
 
