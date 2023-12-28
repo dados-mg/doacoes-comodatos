@@ -5,7 +5,7 @@
   "tasks": [
     {
       "resource": {
-        "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019",
+        "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019.",
         "dialect": {
           "delimiter": ";",
           "doubleQuote": true
