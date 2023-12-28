@@ -1,13 +1,12 @@
 description: Contém relação das doações e comodatos para o Governo de Minas Gerais,
   em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta
-  relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados
-  da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.
+  relação se dará por intermédio Secretaria de Estado da Casa Civil, após a publicação de cada termo.
 keywords:
   - governo
   - doações
   - patrimônio
 name: doacoes-comodatos-amigo-estado-mg
-owner_org: secretaria-de-estado-de-planejamento-e-gestao-seplag
+owner_org: secretaria-de-estado-de-casa-civil
 private: false
 profile: tabular-data-package
 resources:
