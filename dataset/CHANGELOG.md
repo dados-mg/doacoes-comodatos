@@ -13,3 +13,5 @@ Documentação das principais alterações sofridas por este repositório. Basea
 ### [0.0.1] - 2020-07-24
 
 - Criação inicial do conjunto
+
+### changelog de teste
