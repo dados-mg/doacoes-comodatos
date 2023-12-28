@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.041,
+  "time": 0.04,
   "errors": [],
   "tasks": [
     {
@@ -117,8 +117,8 @@
         "scheme": "file",
         "title": "Doações e comodatos recebidos pela Administração - Selo Amigo de Minas Gerais",
         "stats": {
-          "hash": "0a29906071a93ee92c18abd69f65d038",
-          "bytes": 69762,
+          "hash": "baa1faa732e8c750789be9b463320768",
+          "bytes": 69769,
           "fields": 12,
           "rows": 155
         }
@@ -147,12 +147,12 @@
       "partial": false,
       "errors": [
         {
-          "label": "ano",
+          "label": "ano_doacao",
           "fieldName": "ANO",
           "fieldNumber": 1,
           "fieldPosition": 1,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -176,7 +176,7 @@
             "#label"
           ],
           "note": "",
-          "message": "Label \"ano\" in field ANO at position \"1\" does not match the field name in the schema",
+          "message": "Label \"ano_doacao\" in field ANO at position \"1\" does not match the field name in the schema",
           "description": "One of the data source header does not match the field name defined in the schema."
         },
         {
@@ -185,7 +185,7 @@
           "fieldNumber": 2,
           "fieldPosition": 2,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -218,7 +218,7 @@
           "fieldNumber": 3,
           "fieldPosition": 3,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -251,7 +251,7 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -284,7 +284,7 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -317,7 +317,7 @@
           "fieldNumber": 6,
           "fieldPosition": 6,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -350,7 +350,7 @@
           "fieldNumber": 7,
           "fieldPosition": 7,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -383,7 +383,7 @@
           "fieldNumber": 8,
           "fieldPosition": 8,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -416,7 +416,7 @@
           "fieldNumber": 9,
           "fieldPosition": 9,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -449,7 +449,7 @@
           "fieldNumber": 10,
           "fieldPosition": 10,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -482,7 +482,7 @@
           "fieldNumber": 11,
           "fieldPosition": 11,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
@@ -515,7 +515,7 @@
           "fieldNumber": 12,
           "fieldPosition": 12,
           "labels": [
-            "ano",
+            "ano_doacao",
             "codigo_orgao_entidade",
             "orgao_entidade",
             "cnpj_cpf_doador_comodante",
