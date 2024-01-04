@@ -1,5 +1,5 @@
 [![Atualização](https://github.com/dados-mg/doacoes-comodatos-amigo-estado-mg/actions/workflows/main.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=dados-mg&repo=doacoes-comodatos-amigo-estado-mg&flow=frictionless)
 
 
-Altera relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.
+A atualização desta relação se dará, provisoriamente, meio da Diretoria Central de Articulações e Parcerias, inserida na Secretaria de Estado de Casa Civil, em consonância com as mudanças relacionadas à Lei n° 24.313/2023 da Reforma Administrativa e até a aprovação da proposta de alteração do decreto 48.444.
 
