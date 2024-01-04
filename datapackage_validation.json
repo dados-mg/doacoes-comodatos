@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.04,
+  "time": 0.041,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019.",
+        "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com as mudanças relacionadas à Lei Estadual n° 24.313/2023 da Reforma Administrativa e até a aprovação da proposta de alteração do Decreto Estadual nº 48.444.",
         "dialect": {
           "delimiter": ";",
           "doubleQuote": true
