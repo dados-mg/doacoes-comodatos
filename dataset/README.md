@@ -2,4 +2,5 @@
 
 
 Altera relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.
+teste
 
