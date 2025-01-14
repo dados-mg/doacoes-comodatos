@@ -12,6 +12,6 @@ testeste
 
 ### [0.0.1] - 2020-07-24
 
-- Criação inicial do conjunto
+- Criação inicial do conjunto.
 
 
